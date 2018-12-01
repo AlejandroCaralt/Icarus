@@ -90,6 +90,9 @@ public class MainActivity extends AppCompatActivity {
                 //startActivity(intent);
                 startActivityForResult(intent,CODIGO_DE_ACTIVIDAD);
                 break;
+            case R.id.action_create:
+                startActivity(new Intent(MainActivity.this, EventCreateActivity.class));
+                break;
             case R.id.action_logout:
                 startActivity(new Intent(MainActivity.this, LoginActivity.class));
                 FirebaseAuth.getInstance().signOut();
@@ -120,7 +123,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         super.onActivityResult(requestCode, resultCode, data) ;
-
 
     }
 

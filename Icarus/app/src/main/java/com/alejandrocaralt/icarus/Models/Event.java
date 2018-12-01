@@ -14,16 +14,20 @@ public class Event implements Serializable {
 
 
     @Expose
-    @SerializedName("name")
-    private String name ;
+    @SerializedName("routeName")
+    private String routeName ;
 
     @Expose
-    @SerializedName("city")
-    private String city ;
+    @SerializedName("title")
+    private String title ;
 
     @Expose
     @SerializedName("km")
     private Double km ;
+
+    @Expose
+    @SerializedName("min")
+    private Integer min ;
 
     @Expose
     @SerializedName("origin")
@@ -45,15 +49,35 @@ public class Event implements Serializable {
 
     }
 
-    public Event(String id, String name, String city, Double km, List<Double> origin, List<Double> destination, String owner, List<String> bikers) {
+    public Event(String id, String routeName, String title, Double km, Integer min, List<Double> origin, List<Double> destination, String owner, List<String> bikers) {
         this.id = id;
-        this.name = name;
-        this.city = city;
+        this.routeName = routeName;
+        this.title = title;
         this.km = km;
+        this.min = min;
         this.origin = origin;
         this.destination = destination;
         this.owner = owner;
         this.bikers = bikers;
+    }
+
+    public Event(String routeName, String title, Double km, Integer min, List<Double> origin, List<Double> destination, String owner, List<String> bikers) {
+        this.routeName = routeName;
+        this.title = title;
+        this.km = km;
+        this.min = min;
+        this.origin = origin;
+        this.destination = destination;
+        this.owner = owner;
+        this.bikers = bikers;
+    }
+
+    public Integer getMin() {
+        return min;
+    }
+
+    public void setMin(Integer min) {
+        this.min = min;
     }
 
     public List<Double> getOrigin() {
@@ -80,20 +104,20 @@ public class Event implements Serializable {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getRouteName() {
+        return routeName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setRouteName(String routeName) {
+        this.routeName = routeName;
     }
 
-    public String getCity() {
-        return city;
+    public String getTitle() {
+        return title;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public Double getKm() {

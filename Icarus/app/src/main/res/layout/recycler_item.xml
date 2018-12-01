@@ -18,53 +18,54 @@
                 android:id="@+id/rec-img"
                 android:layout_width="120dp"
                 android:layout_height="90dp"
-                android:padding="4dp" />
+                android:padding="4dp"
+                android:contentDescription="@string/img_description"/>
 
             <TextView
-                android:id="@+id/rec-event-name"
+                android:id="@+id/rec-event-route"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_toRightOf="@id/rec-img"
-                android:text="@string/recycler_name"
+                android:text="@string/recycler_route"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/rec-event-min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rec-event-route"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/rec-img"
+                android:text="@string/recycler_min"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
 
             <TextView
                 android:id="@+id/rec-event-km"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/rec-event-name"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_toRightOf="@id/rec-img"
-                android:text="@string/recycler_km"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
-
-            <TextView
-                android:id="@+id/rec-event-city"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/rec-event-km"
+                android:layout_below="@id/rec-event-min"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_toRightOf="@id/rec-img"
                 android:background="@color/colorPrimary"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:text="@string/recycler_city"
+                android:text="@string/recycler_km"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/rec-event-owner"
+                android:id="@+id/rec-event-title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/rec-event-city"
+                android:layout_below="@id/rec-event-km"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_toRightOf="@id/rec-img"
-                android:text="@string/recycler_owner"
+                android:text="@string/recycler_title"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                 android:textStyle="bold" />
 

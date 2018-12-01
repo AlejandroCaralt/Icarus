@@ -63,7 +63,7 @@ import java.util.List;
 public class EventDetailActivity extends AppCompatActivity implements OnMapReadyCallback, LocationEngineListener, PermissionsListener, MapboxMap.OnMapClickListener {
     private Event event;
 
-    private TextView txtTitle;
+    private TextView txtTitle, txtRouteName;
     private Button inputBtn;
 
     private FirebaseAuth fbAuth;
@@ -92,7 +92,7 @@ public class EventDetailActivity extends AppCompatActivity implements OnMapReady
         setContentView(R.layout.activity_event_detail);
 
         // MapBox code
-        mapView = (MapView) findViewById(R.id.mapView);
+        mapView = (MapView) findViewById(R.id.edetail_mapView);
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(this);
 
@@ -102,11 +102,13 @@ public class EventDetailActivity extends AppCompatActivity implements OnMapReady
         db = FirebaseFirestore.getInstance();
 
         txtTitle = findViewById(R.id.det_labelTitle);
+        txtRouteName = findViewById(R.id.det_labelRoute);
         inputBtn = findViewById(R.id.det_inputBtn);
 
         event = (Event) intent.getSerializableExtra(getString(R.string.serializable_event));
 
-        txtTitle.setText(event.getName());
+        txtTitle.setText(event.getTitle());
+        txtRouteName.setText(event.getRouteName());
 
 
         for (String s : event.getBikers()) {

@@ -3,6 +3,6 @@
 
     <item
         android:id="@+id/op01"
-        android:title="Quitar participación" />
+        android:title="@string/context_menu_delete" />
 
 </menu>

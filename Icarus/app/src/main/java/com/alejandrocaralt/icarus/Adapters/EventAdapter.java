@@ -15,6 +15,8 @@ import com.alejandrocaralt.icarus.R;
 
 import java.util.List;
 
+import static java.lang.Math.abs;
+
 public class EventAdapter extends RecyclerView.Adapter<EventAdapter.EventViewHolder> {
 
     private Context mCtx;
@@ -41,10 +43,10 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.EventViewHol
         final Event event = eventList.get(position);
         eventViewHolder.bind(event, listener);
 
-        eventViewHolder.textEventName.setText(event.getName());
+        eventViewHolder.textEventRoute.setText(event.getRouteName());
+        eventViewHolder.textEventMin.setText(String.valueOf(Math.round(event.getMin())) + " Minutes");
         eventViewHolder.textEventKm.setText(String.valueOf(event.getKm()) + " Km");
-        eventViewHolder.textEventCity.setText(event.getCity());
-        eventViewHolder.textEventOwner.setText(event.getOwner());
+        eventViewHolder.textEventTitle.setText(event.getTitle());
         eventViewHolder.imageView.setImageDrawable(mCtx.getResources().getDrawable(R.drawable.ciclismo));
 
     }
@@ -55,7 +57,7 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.EventViewHol
     }
 
     class  EventViewHolder extends  RecyclerView.ViewHolder {
-        TextView textEventName, textEventKm, textEventCity, textEventOwner;
+        TextView textEventRoute, textEventMin, textEventKm, textEventTitle;
         ImageView imageView;
 
         public EventViewHolder(@NonNull View itemView) {
@@ -70,10 +72,10 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.EventViewHol
             });
 
 
-            textEventName = itemView.findViewById(R.id.rec_event_name);
+            textEventRoute = itemView.findViewById(R.id.rec_event_route);
+            textEventMin = itemView.findViewById(R.id.rec_event_min);
             textEventKm = itemView.findViewById(R.id.rec_event_km);
-            textEventCity = itemView.findViewById(R.id.rec_event_city);
-            textEventOwner = itemView.findViewById(R.id.rec_event_owner);
+            textEventTitle = itemView.findViewById(R.id.rec_event_title);
             imageView = itemView.findViewById(R.id.rec_img);
 
         }
