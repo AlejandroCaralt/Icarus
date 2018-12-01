@@ -3,7 +3,7 @@
     <string name="app_name">Icarus</string>
 
     <!-- MapBox Api Key -->
-    <string name="mb_api_key">pk.eyJ1IjoiZm9yZ3VzZGllIiwiYSI6ImNqb3I2NWl2bzBiZjUzcXBhZHJ2cm82ZnAifQ.gqWYR--zW5eo5gcbxfDGUw</string>
+    <string name="mb_api_key">""</string>
 
     <!-- Firestore DB -->
     <string name="fbDb_events_collection">events</string>
