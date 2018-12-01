@@ -1,2 +1,0 @@
-# Icarus
-Android app

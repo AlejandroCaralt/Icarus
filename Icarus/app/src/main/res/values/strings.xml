@@ -1,0 +1,64 @@
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">Icarus</string>
+
+    <!-- MapBox Api Key -->
+    <string name="mb_api_key">pk.eyJ1IjoiZm9yZ3VzZGllIiwiYSI6ImNqb3I2NWl2bzBiZjUzcXBhZHJ2cm82ZnAifQ.gqWYR--zW5eo5gcbxfDGUw</string>
+
+    <!-- Firestore DB -->
+    <string name="fbDb_events_collection">events</string>
+    <string name="fbDb_users_collection">users</string>
+    <string name="fbDb_bikers_document">bikers</string>
+
+    <!-- Serializable -->
+    <string name="serializable_event">event</string>
+
+
+    <!-- LoginActivity -->
+    <string name="login_usr_label">Nombre de usuario</string>
+    <string name="login_pwd_label">Contraseña</string>
+    <string name="login_btn_label">Entrar</string>
+    <string name="login_btn_register">Registrarse</string>
+
+    <string name="login_error">Nombre de usuario o contraseña incorrecta.</string>
+    <string name="login_error_empty">El nombre de usuario o la contraseña no pueden estar vacíos.</string>
+    <string name="login_error_length">La contraseña debe tener entre 6 y 10 caracteres.</string>
+
+    <!-- RegisterActivity -->
+    <string name="register_label_email">Dirección de email</string>
+    <string name="register_label_confirm_password">Confirma contraseña</string>
+    <string name="register_label_password">Contraseña</string>
+    <string name="register_button_send">Registrar</string>
+
+    <string name="register_complete">Cuenta creada correctamente.</string>
+    <string name="register_error">Este correo ya esta vinculado a una cuenta.</string>
+    <string name="register_error_login">Authentication failed.</string>
+    <string name="register_error_empty">El nombre de usuario o la contraseña no pueden estar vacíos.</string>
+    <string name="register_error_length">La contraseña debe tener entre 6 y 10 caracteres.</string>
+    <string name="register_error_pwd_match">Las contraseñas no coinciden.</string>
+
+    <!-- RecyclerView Activity -->
+    <string name="recycler_name">Monte de cabras</string>
+    <string name="recycler_owner">Alejandro Caralt</string>
+    <string name="recycler_km">22.5 Km</string>
+    <string name="recycler_city">Málaga</string>
+
+    <!-- Main Activity -->
+    <string name="main_nooption_msg">Coming soon...</string>
+    
+    <!-- EventDetail Activity -->
+    <string name="edetail_title">Montes de cabras</string>
+    <string name="edetail_route">Event route</string>
+    <string name="edetail_participateBtn">Participate!</string>
+    
+    <string name="edetail_participating_error">You are in.</string>
+    <string name="edetail_participating_successful">We have confirmed your participation.</string>
+    <string name="user_location_permission_explanation">Location permission required.</string>
+    <string name="user_location_permission_not_granted">Location permission not granted.</string>
+
+    <!-- EventPresent Activity -->
+    <string name="epresent_removing_error">We had a problem deleting that, check your wifi.</string>
+    <string name="epresent_removing_successful">Deleted from your list.</string>
+    <string name="epresent_view_title">Your list</string>
+
+</resources>
