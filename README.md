@@ -6,37 +6,37 @@ Android app
 - Signup
 - Main
 - Event
-- Your List
 - Event Detail
+- Your List
 - Create Event
 
 
 ## Login
-#### The login view is simple, the DoiT title, two inputs to log in and two buttons to reset your password or create a new account.
-![img](./images/login.PNG)
+#### 
+![img](./images/login.jpg) ![img](./images/openIcarus.gif) ![img](./images/login_empty.gif) ![img](./images/login_shortPwd.gif) ![img](./images/login_incorrect.gif)
 
 ## Signup
-#### The easiest way to signup, two inputs validating the data, minimun range of six characters for the password and  be redirected to the home page when you finish.
+#### 
 ![img](./images/signup.PNG)
 
-## Reset your Password
+## Main
 #### In case that you've forgotten your password you can introduce your email so that we can send you a reset password link.
 ![img](./images/resetPassword.PNG)
 
-## Home Page
+## Event
 #### And, then comes the main page. The main page where all your tasks are listed in way as to please the eye. You will be able to organise yourselg simply by adding and removing tasks from your list. Just DoiT, an app of action.
 ![img](./images/homePage.PNG)
 
-## Profile
+## Event Detail
 #### Why be shy? You are who you are and you should never hide it. Add your nickname to the app simply by clicking on the half human icon at the top of the page. There you will be able to change your nickname, email and password!
 ![img](./images/profile.PNG)
 
-## Create new Note
+## Your List
 #### Now getting back on the trail, making sure you don't loose the north. You will have to write your duties to let the app help you keep on track.Creating a task is fast, start by adding a tittle to identify the topic and add the description.Once you've made sure that the notes are plenty, move onto another by clicking on the ➕ on the home page. I mean, what are you waiting for? It can't get any easier than that.
 
 ![img](./images/createNote.PNG)
 
-## Note Details
+## Create Event
 #### Now, have you forgotten what the task was all about? Click on the tittle of the task to see your own notes.
 
 ![img](./images/noteDetail.PNG)
