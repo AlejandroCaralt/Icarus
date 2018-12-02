@@ -16,7 +16,7 @@ Icarus is an app made by cyclists for cyclists.
 ![img](./images/login_empty.gif) ![img](./images/login_shortPwd.gif) ![img](./images/login_incorrect.gif)
 
 ## Signup
-#### The signup activity, writing your email and a six minimun characters password will alow you to get your Icarus account ready to use. Dont worry about Spam, we dont send any kind of spam.
+#### The signup activity. Writing your email and a six minimun characters password will allow you to get your Icarus account ready to use. Dont worry about Spam, we dont send any kind of spam.
 ![img](./images/signup.jpg) ![img](./images/signup.gif) ![img](./images/signup_empty.gif) ![img](./images/signup_pwdMatch.gif) ![img](./images/signup_success.gif)
 
 ## Main
