@@ -12,8 +12,8 @@ Android app
 
 
 ## Login
-#### The login view is simple, the DoiT title, two inputs to log in and two buttons to reset your password or create a new account.
-![img](./images/login.PNG)
+#### 
+![img](./images/login.jpg) ![img](./images/login_empty.gif)
 
 ## Signup
 #### The easiest way to signup, two inputs validating the data, minimun range of six characters for the password and  be redirected to the home page when you finish.
