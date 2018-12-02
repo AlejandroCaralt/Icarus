@@ -32,7 +32,7 @@ Icarus is an app made by cyclists for cyclists.
 ![img](./images/yourList.jpg) ![img](./images/yourList.gif)
 
 ## Create Event
-#### Creating is so easy, writing a title and tapping the rout in the map will do all, then click the undermap button, you'll have your event created and ready to been used by other users.
+#### Creating an event is so easy, writing a title and tapping the rout in the map will do all, then click the undermap button, you'll have your event created and ready to been used by other users.
 ![img](./images/createEvent.jpg) ![img](./images/eventCreate.gif) ![img](./images/createEvent_empty.gif) 
 
 ## The END
