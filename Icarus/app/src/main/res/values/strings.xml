@@ -18,27 +18,27 @@
 
 
     <!-- LoginActivity -->
-    <string name="login_usr_label">Nombre de usuario</string>
-    <string name="login_pwd_label">Contraseña</string>
-    <string name="login_btn_label">Entrar</string>
-    <string name="login_btn_register">Registrarse</string>
+    <string name="login_usr_label">User name</string>
+    <string name="login_pwd_label">Password</string>
+    <string name="login_btn_label">Login</string>
+    <string name="login_btn_register">Signup</string>
 
-    <string name="login_error">Nombre de usuario o contraseña incorrecta.</string>
-    <string name="login_error_empty">El nombre de usuario o la contraseña no pueden estar vacíos.</string>
-    <string name="login_error_length">La contraseña debe tener entre 6 y 10 caracteres.</string>
+    <string name="login_error">Incorrect username or password.</string>
+    <string name="login_error_empty">The username and the password cannot be empty.</string>
+    <string name="login_error_length">The password must have 6 or more characters.</string>
 
     <!-- RegisterActivity -->
-    <string name="register_label_email">Dirección de email</string>
-    <string name="register_label_confirm_password">Confirma contraseña</string>
-    <string name="register_label_password">Contraseña</string>
-    <string name="register_button_send">Registrar</string>
+    <string name="register_label_email">Email</string>
+    <string name="register_label_confirm_password">Repeat password</string>
+    <string name="register_label_password">Password</string>
+    <string name="register_button_send">Signup</string>
 
-    <string name="register_complete">Cuenta creada correctamente.</string>
-    <string name="register_error">Este correo ya esta vinculado a una cuenta.</string>
+    <string name="register_complete">Account created.</string>
+    <string name="register_error">The username is already used</string>
     <string name="register_error_login">Authentication failed.</string>
-    <string name="register_error_empty">El nombre de usuario o la contraseña no pueden estar vacíos.</string>
-    <string name="register_error_length">La contraseña debe tener entre 6 y 10 caracteres.</string>
-    <string name="register_error_pwd_match">Las contraseñas no coinciden.</string>
+    <string name="register_error_empty">The username and the password cannot be empty.</string>
+    <string name="register_error_length">The password must have 6 or more characters.</string>
+    <string name="register_error_pwd_match">The passwords does not match.</string>
 
     <!-- RecyclerView Activity -->
     <string name="recycler_route">Carretera de Paloma, Avenida Valor</string>
@@ -80,7 +80,7 @@
     <string name="menu_list">My Events</string>
     <string name="menu_logout">Logout</string>
 
-    <string name="context_menu_delete">Quitar participación</string>
+    <string name="context_menu_delete">Quit event</string>
 
 
 
