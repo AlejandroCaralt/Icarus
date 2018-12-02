@@ -1,48 +1,41 @@
 # Icarus
-Android app
+Icarus is an app made by cyclists for cyclists.
 
 ## App Activitys:
 - Login
 - Signup
 - Main
-- Event
 - Event Detail
 - Your List
 - Create Event
 
 
 ## Login
-#### 
-![img](./images/login.jpg) ![img](./images/openIcarus.gif) ![img](./images/login_empty.gif) ![img](./images/login_shortPwd.gif) ![img](./images/login_incorrect.gif)
+#### The login activity is simply, you just need a registered account to get access to the main acitivity. You can always signup for free.
+![img](./images/login.jpg) ![img](./images/openIcarus.gif)
+![img](./images/login_empty.gif) ![img](./images/login_shortPwd.gif) ![img](./images/login_incorrect.gif)
 
 ## Signup
-#### 
-![img](./images/signup.PNG)
+#### The signup activity. Writing your email and a six minimun characters password will allow you to get your Icarus account ready to use. Dont worry about Spam, we dont send any kind of spam.
+![img](./images/signup.jpg) ![img](./images/signup.gif) ![img](./images/signup_empty.gif) ![img](./images/signup_pwdMatch.gif) ![img](./images/signup_success.gif)
 
 ## Main
-#### In case that you've forgotten your password you can introduce your email so that we can send you a reset password link.
-![img](./images/resetPassword.PNG)
-
-## Event
-#### And, then comes the main page. The main page where all your tasks are listed in way as to please the eye. You will be able to organise yourselg simply by adding and removing tasks from your list. Just DoiT, an app of action.
-![img](./images/homePage.PNG)
+#### In the main acitivy you will see all available events right now, you can click on any of them and get to the event detail activity. On the right corner of your app you'll have an options icon, where you can click to move to the "your list" activity or the "create event" activity
+![img](./images/main.jpg)
 
 ## Event Detail
-#### Why be shy? You are who you are and you should never hide it. Add your nickname to the app simply by clicking on the half human icon at the top of the page. There you will be able to change your nickname, email and password!
-![img](./images/profile.PNG)
+#### On the event detail activity you have the route name, the route in the map and a button to participate in the event.
+![img](./images/eventDetail.jpg) ![img](./images/eventDetail.gif) 
 
 ## Your List
-#### Now getting back on the trail, making sure you don't loose the north. You will have to write your duties to let the app help you keep on track.Creating a task is fast, start by adding a tittle to identify the topic and add the description.Once you've made sure that the notes are plenty, move onto another by clicking on the ➕ on the home page. I mean, what are you waiting for? It can't get any easier than that.
-
-![img](./images/createNote.PNG)
+#### In your list activity you'll have all the events where you participate, you'll participate in all the events you create
+![img](./images/yourList.jpg) ![img](./images/yourList.gif)
 
 ## Create Event
-#### Now, have you forgotten what the task was all about? Click on the tittle of the task to see your own notes.
-
-![img](./images/noteDetail.PNG)
+#### Creating an event is so easy, writing a title and tapping the rout in the map will do all, then click the undermap button, you'll have your event created and ready to been used by other users.
+![img](./images/createEvent.jpg) ![img](./images/eventCreate.gif) ![img](./images/createEvent_empty.gif) 
 
 ## The END
-#### The last but none the least, now that you have done it all, it's time to get out there and do all you set out to do. Greatness comes from within, a step at a time so get out there and Just DoiT! We will help you achieve all of your potential by keeping you organised. Go out and live a little. DoiT a friend for life. :+1:.  
-![img](./images/homeEmpty.PNG)
+#### Thanks you for checking this new app and i'll apreciate all your feedback, see you next time.
 
-###### [Here](https://drive.google.com/file/d/14xzutRP_vB5L3al8QNFhXn03X_-NVzE_/view?usp=sharing) you can dowload the app and use it for free.
+###### [Here](https://drive.google.com/open?id=1loYdfa9FEpcqIeZDhiZtTaA2bokuKY82) you can dowload the app and use it for free.
