@@ -13,7 +13,7 @@ Android app
 
 ## Login
 #### 
-![img](./images/login.jpg) ![img](./images/login_empty.gif)
+![img](./images/login.jpg) ![img](./images/openIcarus.gif)
 
 ## Signup
 #### The easiest way to signup, two inputs validating the data, minimun range of six characters for the password and  be redirected to the home page when you finish.
