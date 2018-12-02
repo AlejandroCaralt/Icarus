@@ -1,5 +1,5 @@
 # Icarus
-Android app
+Icarus is an app made by cyclists for cyclists.
 
 ## App Activitys:
 - Login
