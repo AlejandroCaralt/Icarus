@@ -12,7 +12,7 @@ Icarus is an app made by cyclists for cyclists.
 
 ## Login
 #### The login activity is simply, you just need a registered account to get access to the main acitivity. You can always signup for free.
-![img](./images/login.jpg) ![img](./images/openIcarus.gif)
+![img](./images/login.jpg) ![img](./images/openLogin.gif)
 ![img](./images/login_empty.gif) ![img](./images/login_shortPwd.gif) ![img](./images/login_incorrect.gif)
 
 ## Signup
@@ -38,4 +38,4 @@ Icarus is an app made by cyclists for cyclists.
 ## The END
 #### Thanks you for checking this new app and i'll apreciate all your feedback, see you next time.
 
-###### [Here](https://drive.google.com/open?id=1loYdfa9FEpcqIeZDhiZtTaA2bokuKY82) you can dowload the app and use it for free.
+###### [Here](https://drive.google.com/open?id=1u9t1hNZhrIGN8kCUhst8W5ZFAtQf588e) you can dowload the app and use it for free.
