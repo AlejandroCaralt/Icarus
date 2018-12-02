@@ -1,5 +1,8 @@
 # Icarus
-Icarus is an app made by cyclists for cyclists.
+Icarus, an app made for cyclists by cyclists. 
+An app that will allow you to create and track your routes to share with your friends. 
+All you have to do is log in, create your event and get cycling. 
+Do not forget to share!
 
 ## App Activitys:
 - Login
