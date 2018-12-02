@@ -13,7 +13,7 @@ Android app
 
 ## Login
 #### 
-![img](./images/login.jpg) ![img](./images/openIcarus.gif) ![img](./images/login_empty.gif)
+![img](./images/login.jpg) ![img](./images/openIcarus.gif) ![img](./images/login_empty.gif) ![img](./images/login_shortPwd.gif) ![img](./images/login_incorrect.gif)
 
 ## Signup
 #### 
